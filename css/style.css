@@ -810,7 +810,7 @@ fieldset {
     background-color: #f3f3f3;
 }
 @media screen and (max-width:600px){
-    #contact{
+    header{
         display:none;
     }
 }
