@@ -809,8 +809,3 @@ fieldset {
 .resume{
     background-color: #f3f3f3;
 }
-@media screen and (max-width:600px){
-    header{
-        display:none;
-    }
-}
