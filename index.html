@@ -38,7 +38,7 @@
                 <li><a href="#experience">experience</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href=".resume">resume</a></li>
-                <li ><a id="contact">contact</a></li>
+                <li ><a id="#contact" href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -308,18 +308,14 @@
                 <div class="h-50"></div>
             </div>
             <div class="col-md-8" data-aos="fade-up">
-                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
-                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
-                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
-                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                    <div id="success">
-                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
-                    </div>
-                    <div id="error">
-                        <p> Something went wrong, try refreshing and submitting the form again. </p>
-                    </div>
+                <form class="contact-bg" action="https://formcarry.com/s/KPfJFi8Ppm" method="POST"id="contact-form" name="contact" novalidate="novalidate">
+                    <input type="email" name="email" class="form-control" placeholder="E-mail">
+                    <input type="text" name="firstName" class="form-control" placeholder="First Name"/>
+                    <input type="text" name="lastName" class="form-control" placeholder="Last Name"/>
+                    <input type="text" name="anotherInput" class="form-control" placeholder="Message">
+                    <input type="hidden" name="_gotcha">
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button> 
+                    
                 </form>
             </div>
         </div>
